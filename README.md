@@ -9,7 +9,9 @@
 - 跨平台支持（处理 Windows 控制台编码问题）。
 
 ## 使用方法
-\`\`\`bash
 python gpu_monitor.py
+
 python gpu_monitor.py --temp-threshold 85 --mem-threshold 95
+
 python gpu_monitor.py --output report.json --verbose
+
